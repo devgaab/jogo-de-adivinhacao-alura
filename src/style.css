@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* backgroud: image repeat position/size attachment*/
+    background: url("../src/image/background.png") no-repeat center/cover fixed;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 4px;
+}
+
+.container {
+    width: 340px;
+    padding: 40px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px; 
+    backdrop-filter: blur(8px);
+    box-sizing: 0 0 30px rgba(0, 0, 0, .5);
+}
+
+.title {
+    text-align: center;
+    color: #ffffff;
+}
+
+.page-title {
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.cerebro {
+    max-height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.iniciar {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn-iniciar {
+    width: 120px;
+    height: 45px;
+    background-color: #DA1E26;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: color 100ms;
+}
+
+.btn-iniciar:hover,
+.btn-iniciar:focus {
+    background-color: #fc3842;
+    transform: scale(1.02);
+}
+
+footer .rodape {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 25px;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .rodape a {
+    color: #DA1E26;
+    text-decoration: none;
+}
+
+footer .rodape a:hover {
+    color: #fc3842;
+}
